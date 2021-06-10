@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research stories</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Van-Thach Do</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="biography.html">Biography</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-category">Blog</div>
+<div class="menu-item"><a href="news.html" class="current">More&nbsp;info</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research stories</h1>
+</div>
+<p><section class="card"></p>
+<h1>During the doctoral program</h1>
+<h2>Ballbot</h2>
+<p><br /></p>
+<center><img src="/image/r_exp/bb2.jpg" width="600"></center>
+<center><img src="/image/r_exp/bb3.jpg" width="600"></center>
+<p>This ballbot is built at IRMS lab, Kyung Hee University (2017-2018).
+In this system, mechanical parts are designed by the FUSIONENC company. Then, my role is to set it up from scratch and propose robust control algorithms (<a href="https://doi.org/10.1109/TSMC.2020.2967433">TSMC</a>, <a href="https://doi.org/10.1016/j.ymssp.2020.106866">MSSP</a>, and <a href="https://doi.org/10.1007/s12555-019-0073-x">IJCAS</a>) to govern the balance and transfer of ballbot. Then, these algorithms are simulated in Matlab and are converted into C++. </p>
+<ul>
+<li><p>Finally, a control software (MFC C++) is programmed using the multithreading technique to fuse the sensor data and generate control signals to motors.
+The connection diagram, the control architecture diagram can be observed at <a href="https://doi.org/10.1109/TSMC.2020.2967433">TSMC</a>, <a href="https://doi.org/10.1016/j.ymssp.2020.106866">MSSP</a>, and <a href="https://doi.org/10.1007/s12555-019-0073-x">IJCAS</a> papers.</p>
+</li>
+</ul>
+<h2>Mecanum robot</h2>
+<p><br /></p>
+<center><img src="/image/r_exp/mbot1.jpg" width="600"></center>
+<center><img src="/image/r_exp/mbot2.jpg" width="600"></center>
+<p>This is an industrial robot built at FUSIONENC company. For this system, my roles are to do the kinematics modeling, simulation, set up the electrical hardware, and program the control software for the real system.</p>
+<h2>Mobile robot</h2>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/0dXVqE_jfsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<p>ROS-based autonomous navigation is implemented. Here, I used a URG LiDAR with the Kobuki Platform.</p>
+<h1>During undergraduate program</h1>
+<h2>Build a remote control framework for a mobile manipulator platform. (Funded by HCMUT).</h2>
+<p><br /></p>
+<center><img src="/image/r_exp/ubot1.jpg" width="600"></center>
+<center><img src="/image/r_exp/ubot2.jpg" width="600"></center>
+<center><img src="/image/r_exp/ubot3.jpg" width="600"></center>
+<p>This robot includes a mobile platform attached with a three DOFs robot arm. The system comprises a joystick, embedded boars, IMU, two cameras, wifi router, power boards, voltage level shifting, and mixing signal boards. Most ICs and MCUs are supported by <a href="https://www.ti.com/">Texas Instruments</a>. The robot can be remotely controlled using wifi. The main control program is written by C++. It is running on an embedded board (BeagleBone Black-Linux). The operator can control the system with a joystick. My main tasks are as follows.</p>
+<ul>
+<li><p>Design printed circuit boards for the power stage (high current), voltage level shifting, mixing control signals, and self-safety.</p>
+</li>
+<li><p>Write a socket server on the BeagleBone Black (Python) to receive and handle the control signals from the operator. This socket will activate the received commands and get the data from other connected sensors using the bash script and low-level assembly languages (to inherit the real-time action of the PRU module). </p>
+</li>
+<li><p>Write a socket client on the remote computer (C#) to decode the signal from the joystick and send it wirelessly to the server. In addition, the data from cameras is also collected.</p>
+</li>
+<li><p>Forward/inverse kinematics is used to control a 3DOF arm is proposed. Also, the OpenGL library is used to simulate the robot arm motion.</p>
+</li>
+<li><p>The OpenCV library is invoked to do object detection for the robot arm.
+<br /></p>
+</li>
+</ul>
+<h2>Assemble instruments and do the commissioning for the <a href="http://www.pvc-ms.vn/en/news/load-out-bk-16%E2%80%99s-jacket-html">BK-16</a> oil rig, summer 2014.</h2>
+<center><img src="/image/r_exp/intern2.jpg" width="600"></center>
+<p></section></p>
+<center><img src="https://s01.flagcounter.com/count/3FE6/bg_FFFFFF/txt_808080/border_CCCCCC/columns_8/maxflags_12/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" height = "1" alt="Flag Counter" border="0"></a></center>
+</td>
+</tr>
+</table>
+</body>
+</html>
