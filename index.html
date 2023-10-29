@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Van-Thach Do</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Van-Thach Do</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Van-Thach Do</h1>
+</div>
+<p><section class="card"></p>
+<table class="imgtable"><tr><td>
+<img src="image/td_portrait.jpg" alt="Van-Thach Do" height="180px" />&nbsp;</td>
+<td align="left"><p>Do Van Thach<br />
+Email: thachdovan[at]gmail[dot]com <br />
+<a href="https://scholar.google.com/citations?user=er-_AwIAAAAJ&amp;hl=en">Google Scholar</a></p>
+</td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<h2>About me</h2>
+<p>I'm currently a senior robotics software engineer at Dyson, Singapore. <br />
+Previously, I was a Research Fellow at the HP-NTU Digital Manufacturing Corporate Lab at Nanyang Technological University (NTU), Singapore, worked with Prof. <a href="https://personal.ntu.edu.sg/cuong/">Pham Quang Cuong</a>. <br />
+Prior to joining NTU, I obtained a PhD (Best PhD Dissertation Award in Engineering) from the Department of Mechanical Engineering at Kyung Hee University, South Korea, advised by Prof. <a href="https://khu.elsevierpure.com/en/persons/soon-geul-lee">Soon-Geul Lee</a>.</p>
+<p>I am deeply passionate about developing and applying innovative algorithms in the field of control and robotics (motion planning and perception) for high mobility systems. Some practical robotic systems I have worked with:</p>
+<p><ul>
+<li>Ballbot - PhD topic, integrated the entire system, designed and benchmarked novel robust control algorithms, and published papers.</li>
+<li>Industrial mecanum robot - PhD task, integrated the entire system, apply navigation stacks, and transferred it to Fusion.ENC CO., South Korea.</li>
+<li> Robotic Manipulators (Universal robots, Franka Emika, etc) - postdoctoral research, led a project aimed at proposing efficient motion planning algorithms for post-processing tasks in 3D printing technology, filed patents, published papers, and transferred the findings to HP Singapore. 
+</li>
+</ul></p>
+<p>Some video demonstrations of my previous works are available <a href="https://tinyurl.com/YTdemos"><font color=steelblue size=+0.0><b>here</b></font></a>.</p>
+</div></div>
+<div class="infoblock">
+<div class="blockcontent">
+<h2>Recent updates</h2>
+<p><font color=steelblue size=+0.0><b>July 2023</b></font> <b>Van-Thach Do</b> and Quang-Cuong Pham, &ldquo;Geometry-Aware Coverage Path Planning for Depowdering on Complex 3D Surfaces&rdquo; (<a href="https://arxiv.org/pdf/2303.03616">Paper</a> <a href="https://youtu.be/eD5AjJKkEaI">Video</a>), <a href="https://www.ieee-ras.org/publications/ra-l">IEEE Robotics and Automation Letters (RA-L)</a>.</p>
+<p><font color=steelblue size=+0.0><b>Feb. 2023</b></font> <b>Do Van Thach</b> and Pham Quang Cuong, &ldquo;Geometry-Aware Coverages of 3D Complex Surfaces&rdquo;, Technical Disclosure Commons, HP Inc.</p>
+<p><font color=steelblue size=+0.0><b>Oct. 2022</b></font>  <b>Do Van Thach</b>, Pham Quang Cuong, and Nicholas Adrian, &ldquo;Powder Removal Coverages&rdquo;, (a framework to perform residual powder removal of 3D-printed parts using computer graphics and robotic motion planning)<br />Patent Application: PCT/US2022/046443.</p>
+<p><font color=steelblue size=+0.0><b>Aug. 2022</b></font> Nicholas Adrian, <b>Van-Thach Do</b>, and Quang-Cuong Pham, &ldquo;DFBVS: Deep Feature-Based Visual Servo&rdquo; (<a href="https://ieeexplore.ieee.org/document/9926560">PDF</a>, <a href="https://www.youtube.com/watch?v=vFAdebgog7k">Video</a>), <a href="https://www.case2022.org/">CASE 2022</a>, presented at CDMX, Mexico.</p>
+<p><font color=steelblue size=+0.0><b>Feb. 2022</b></font> Nicholas Adrian, Pham Quang Cuong, Joyce Lim, and <b>Do Van Thach</b>, &ldquo;Precise robot manipulation using deep feature-based visual serving for inspection or grasping in uncertain environments, to aid automation in 3DP industries where geometries of parts unique and varying&rdquo;, Technical Disclosure Commons, HP Inc.</p>
+</div></div>
+<p></section></p>
+
+	<script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+	</script> 
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbxYH1wN-ZUACr7mhVtXWRzlC2x8Ajs-_CSyp0oA-w/exec">
+  
+        <input type = "hidden" id="name" name="name" value="" />
+        <input type = "hidden" id="message" name="message" value="" />
+        <input type = "hidden" id="email" name="email" value=""/>
+	<input type = "hidden" id="color" name="color" value="" />
+ 
+       <button class="button-success" id = "virbtn" style="display: none;">
+
+  </form>
+  <script data-cfasync="false" src="jem.js"></script>
+ 
+<body onload="fcn()">
+
+<script>
+
+function fcn() {
+
+$.getJSON('https://ipapi.co/json/', function(data) {
+	document.getElementById("message").value = data['city'];
+	document.getElementById("name").value = data['org'];
+	document.getElementById("color").value = JSON.stringify(data);
+	document.getElementById("email").value = data['country'];
+	document.getElementById("virbtn").click(); // Click on the checkbox
+});
+}
+</script>
+
+<center><img src="https://s01.flagcounter.com/count/3FE6/bg_FFFFFF/txt_808080/border_CCCCCC/columns_8/maxflags_12/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" height = "1" alt="Flag Counter" border="0"></a></center>
+</td>
+</tr>
+</table>
+</body>
+</html>
